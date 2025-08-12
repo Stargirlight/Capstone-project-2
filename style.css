@@ -244,8 +244,9 @@ body .navbar-fade-wrap {
   border-radius: 50%;
   background-color: #1e1e1e;
   margin-right: 18px;
-  text-align: center;
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -292,7 +293,7 @@ body .navbar-fade-wrap {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.WExp:hover {
+.WExp: hover {
   transform: scale(1.02);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
@@ -672,6 +673,7 @@ figure {
 .footer-paragraph {
   color: #1e1e1e;
   font-size: 14px;
+  font-weight: 400;
   text-decoration: none;
   font-style: normal;
 }
@@ -733,6 +735,7 @@ figure {
   padding: 2rem 0 4rem;
   text-align: center;
   font-size: 14px;
+  font-weight: 400;
   color: #76747e;
 }
 
@@ -853,6 +856,7 @@ figure {
 
   .WExp-roles {
     font-size: 14px;
+    font-weight: 400;
   }
 
   .WExp-roles li {
@@ -887,6 +891,7 @@ figure {
 
   .EduQua-paragragh {
     font-size: 14px;
+    font-weight: 400;
   }
 
   .Portfolio-title {
