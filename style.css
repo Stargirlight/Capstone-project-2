@@ -691,17 +691,21 @@ figure {
 .contact-container {
   background-color: black;
   border-radius: 20px;
-  padding: 3rem 0;
+  padding: 3rem 3.7rem;
+  box-sizing: border-box;
 }
 
 .contact-flex {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-start;
+  gap: 2rem;
 }
 
 .contact-text {
-  flex-basis: 680px;
+  flex-basis: 1;
+  min-width: 250px;
+  max-width: 680px;
 }
 
 .contact-title {
@@ -1103,11 +1107,14 @@ figure {
   .contact-flex {
     flex-direction: column;
     gap: 2.5rem;
-    padding: 0 1.55rem;
+  }
+
+  .contact-container {
+    padding: 2.7rem 1.2rem;
   }
 
   .contact-text {
-    flex-basis: 0;
+    max-width: 100%;
   }
 
   .footer-container {
@@ -1116,6 +1123,10 @@ figure {
 
   .footer-flex {
     gap: 5.6rem;
+  }
+
+   .journey-links {
+    gap: 8rem;
   }
 
   .logo-shared {
@@ -1273,7 +1284,8 @@ figure {
 
   .EduQua-paragragh {
     font-size: 17px;
-    width: 650px;
+    min-width: 250px;
+    max-width: 650px;
   }
 
   .EduQua-title {
@@ -1331,7 +1343,20 @@ figure {
     margin-top: 3rem;
   }
 
-  .contact-text {
-    flex-basis: 514px;
+    .contact-container {
+    padding: 2.7rem 1.2rem;
   }
+
+  .contact-text {
+    flex-basis: 1;
+    max-width: 514px;
+  }
+
+   .footer-flex {
+    gap: 7rem;
+  }
+
+  .text-copyright-flex {
+    font-size: 14px;
+    font-weight: 400;
 }
